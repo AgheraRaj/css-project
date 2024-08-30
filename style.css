@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+} 
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.nav-logo{
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+a{
+    margin: 25px;
+    text-decoration: none;
+    color: #767676;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #333;
+}
+
+.Download-btn{
+    height: 38px;
+    width: 120px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #04ddb2;
+    border-radius: 50px;
+    border: none;
+}
+
+.nav-btn{
+    margin-right: 100px;
+}
+
+.first-container{
+    width: 400px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.first-container div{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    gap: 5px;
+}
+
+.middel-container{
+   height: 500px;
+   width: 1000px;
+   background-color: rgba(118, 118, 118, 0.2);
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 55px;
+}
+
+video{
+    border-radius: 15px;
+}
+
+.last-container{
+    width: 400px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.last-container h1{
+    line-height: 55px;
+}
+
+.hero-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-contain-btn{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+hr{
+    width:75%;
+    margin: auto;
+}
+
+.footer-container{
+    width:80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 40px;
+    
+}
+
+.other-info{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    margin: 5px;
+}
+
+.footer-logo{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.material-icons{
+    position: relative;
+    top: 5px;
+    right: 3px;
+}
